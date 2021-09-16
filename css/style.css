@@ -1,0 +1,239 @@
+:root {
+  --primary-background-color: #f5f4fa;
+  --secondary-background-color: #ffffff;
+  --accent-color: #2196f3;
+  --title-text-color: #212121;
+  --text-color: #757575;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+
+.studio-body {
+  background-color: var(--primary-background-color);
+}
+
+.portfolio-body {
+  background-color: var(--secondary-background-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  text-align: center;
+  color: var(--title-text-color);
+}
+
+.logo {
+  color: #2196f3;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  cursor: pointer;
+}
+
+/* ------------ Header ---------- */
+.header-logo {
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.header-logo-color {
+  color: #000000;
+}
+
+.header {
+  background-color: var(--secondary-background-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.header-link {
+  color: #212121;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+}
+
+.header-contacts {
+  color: #757575;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+}
+
+.current {
+  color: #2196f3;
+}
+
+.header-link:hover,
+.header-contacts:hover,
+.header-link:focus,
+.header-contacts:focus {
+  color: var(--accent-color);
+}
+
+/* ------------ Hero ---------- */
+.hero {
+  background-color: #2f303a;
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.hero-bt {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88x;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+.hero-bt:hover,
+.hero-bt:focus {
+  background-color: #188ce8;
+}
+
+/* ------------ Peculiarities ---------- */
+.peculiarities-subtitle {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--title-text-color);
+}
+.peculiarities-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+/* ------------ Busyness ---------- */
+
+/* ------------ Command ---------- */
+.command-list {
+  background-color: var(--secondary-background-color);
+}
+.command-subtitle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  color: var(--title-text-color);
+}
+
+.command-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+/* ------------ Footer ---------- */
+.footer {
+  background-color: #2f303a;
+  font-style: normal;
+}
+
+.footer-logo-color {
+  color: #ffffff;
+}
+
+.footer-link {
+  font-weight: 400;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1.71;
+  color: #ffffff;
+  cursor: pointer;
+}
+.footer-contacts {
+  font-weight: 400;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+  cursor: pointer;
+}
+.footer-link:hover,
+.footer-contacts:hover,
+.footer-link:focus,
+.footer-contacts:focus {
+  color: var(--accent-color);
+}
+
+/* ------------ Portfolio ---------- */
+/* ------------ Portfolio button ---------- */
+
+.portfolio-bt {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62x;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  color: #212121;
+  background-color: var(--primary-background-color);
+}
+
+.portfolio-bt:hover,
+.portfolio-bt:focus {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
+
+.curent-bt {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
+
+.portfolio-subtitle {
+  font-weight: 700d;
+  font-size: 18px;
+  line-height: 2x;
+  letter-spacing: 0.06em;
+  color: var(--title-text-color);
+}
+
+.portfolio-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+}
+
+/* #212121 100%  текст в шапке, студио, портфолио и т.д. H2-H3*/
+/* #FFFFFF 100% в шапке подложка и портфолио, H1  в герое, кнопка в герое, подложка под фото в Наша команда*/
+/* #757575 100%  емейл телефон не активный, мелкий текст по сайту*/
+/* #000000 100% *studio/
+/* #2196F3 100%  кнопка, WEB */
+
+/* #EEEEEE 100%  цвет линии в портфолио*/
+/* #F5F4FA 100% * подложка Наша команда, чем занимаемся и Особенности/
+/* # 188CE8 активная кнопка */
+/* #FFFFFF 60%  в футере емейл и телефон*/
+/* #2F303A 100% подложка героя и футера */
+/* #ECECEC 100%  цвет линии в герое*/
