@@ -63,7 +63,7 @@ body {
   line-height: 1.14;
 }
 
-.header-link {
+.navigation-link {
   color: #212121;
   letter-spacing: 0.02em;
   cursor: pointer;
@@ -79,9 +79,9 @@ body {
   color: #2196f3;
 }
 
-.header-link:hover,
+.navigation-link:hover,
 .header-contacts:hover,
-.header-link:focus,
+.navigation-link:focus,
 .header-contacts:focus {
   color: var(--accent-color);
 }
